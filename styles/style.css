@@ -1,0 +1,216 @@
+/* ----------GOOGLE-FONTS---------- */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+background: rgb(0, 0, 0);
+}
+
+/* ----------SHARED-STYLES---------- */
+.display-flex {
+    display: flex;
+}
+
+.text-color {
+    color: aliceblue;
+}
+
+.btn-primary {
+    background: #E6533C;
+    padding: 0.9em 2.2em;
+    border-style: none;
+    border-radius: 2em;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: .5em;
+}
+/* -------------------------NAVBAR-SECTION-STYLES------------------------- */
+.header {
+    width: 80%;
+    margin: 0 auto;
+    /* background: rgba(0, 0, 0, 0.407); */
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
+}
+
+.navbar-title .nav-logo {
+    font-size: em;
+}
+
+.navbar {
+    justify-content: center;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+.navbar .navbar-list {
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3.5em;
+    border: 1px solid rgba(105, 103, 103, 0.548);
+    border-radius: 1em;
+    padding: .6em .6em .6em 0;
+}
+
+.navbar .navbar-link {
+    border: 1px solid red;
+    background-color: #E6533C;
+    border-radius: 1em;
+    padding: .5em;
+
+}
+
+.navbar .navbar-list li a {
+    /* color: aliceblue; */
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 400;
+}
+
+/* ----------HERO-SECTION-STYLE---------- */
+
+.hero-container .hero-title {
+    font-size: 5em;
+}
+
+.hero-container {
+    width: 50%;
+}
+
+.hero-title span {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.hero-description {
+    margin-bottom: 2em;
+}
+/* ---hero-section-button--- */
+.hero-container .btn-app {
+    color: black;
+    margin-left: 1em;
+    padding: 0.9em 2.4em;
+    border: 1px solid black;
+    border-style: none;
+    border-radius: 2em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -------------------------NAVBAR-SECTION-STYLES------------------------- */
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.habits-container {
+    text-align: center;
+}
+
+.habits-container .habits-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    /* color: (255, 255, 255, 0.5); */
+}
+
+.habits-image {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+}
+
+.habits-image-box {
+    width: 50%;
+    text-align: center;
+}
+
+.habits-image .image {
+    width: 60%;
+    height: 60%;
+    border: 1 px solid red;
+    border-radius: 10em;
+}
+
+.habits-container .habits-image {
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+/* ----------MAIN-RUN-SECTION---------- */
+.run-container {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(38, 38, 38);
+    border-radius: .8em;
+    padding: 1.5em 0;
+    margin-top: 3em;
+}
+
+.run-box {
+    max-width: 50%;
+}
+.run-box .run-title {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.run-box .run-description {
+
+}
+
+.img {
+    width: 30%;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+}
+
+/* ----------CALCULATOR-BMI-SECTION---------- */
+.Calculator {
+    background: rgb(38, 38, 38);
+    margin-bottom: 4em;
+}
+.Calculator-content {
+    text-align: center;
+}
+
+.Calculator-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* -------------------------TEAM-SECTION-STYLES------------------------- */
+.team-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.team-section .team-content {
+    text-align: center;
+    margin: 5em 0;
+}
+
+.team-container {
+    display: flex;
+    gap: 2em;
+    background: rgb(38, 38, 38);
+    padding: 1.5em;
+    border-radius: 1em;
+}
+
+.team-img {
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+    position: relative;
+}
+
+/* .t-head {
+    position: absolute;
+    z-index: -1;
+} */
