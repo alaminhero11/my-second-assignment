@@ -195,16 +195,19 @@ background: rgb(0, 0, 0);
     margin: 5em 0;
 }
 
+.team {
+    background: rgb(38, 38, 38);
+    margin: 0 auto;
+}
+
 .team-container {
     display: flex;
-    gap: 2em;
-    background: rgb(38, 38, 38);
     padding: 1.5em;
     border-radius: 1em;
 }
 
 .team-img {
-    width: 100%;
+    width: 80%;
     background-repeat: no-repeat;
     border-radius: 1em;
     position: relative;
