@@ -13,8 +13,12 @@ background: rgb(0, 0, 0);
     display: flex;
 }
 
-.text-color {
+.heading-text-color {
     color: aliceblue;
+}
+
+.paragraph-text-color {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .btn-primary {
@@ -24,7 +28,7 @@ background: rgb(0, 0, 0);
     border-radius: 2em;
     font-size: 1em;
     font-weight: 500;
-    margin-top: .5em;
+    margin-top: .8em;
 }
 /* -------------------------NAVBAR-SECTION-STYLES------------------------- */
 .header {
@@ -35,7 +39,9 @@ background: rgb(0, 0, 0);
 }
 
 .navbar-title .nav-logo {
-    font-size: em;
+    font-size: 2em;
+    font-style: italic;
+    color: #E6533C;;
 }
 
 .navbar {
@@ -49,15 +55,15 @@ background: rgb(0, 0, 0);
     justify-content: flex-start;
     gap: 3.5em;
     border: 1px solid rgba(105, 103, 103, 0.548);
-    border-radius: 1em;
-    padding: .6em .6em .6em 0;
+    border-radius: 1.1em;
+    padding: .8em .8em 0 0;
 }
 
-.navbar .navbar-link {
-    border: 1px solid red;
-    background-color: #E6533C;
+.navbar .navbar-home {
+    border: 0px solid #E6533C;
+    background: #E6533C;
     border-radius: 1em;
-    padding: .5em;
+    padding: .7em;
 
 }
 
@@ -69,7 +75,10 @@ background: rgb(0, 0, 0);
 }
 
 /* ----------HERO-SECTION-STYLE---------- */
-
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
 .hero-container .hero-title {
     font-size: 5em;
 }
@@ -98,10 +107,66 @@ background: rgb(0, 0, 0);
     font-weight: 500;
 }
 
-.hero {
+.hero-image-box {
+    position: relative;
+}
+
+.hero-glass-box {
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3.5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    position: absolute;
+    bottom: 70px;
+    left: -100px;
 }
+
+.hero-circel {
+    width: 40px;
+    height: 40px;
+    background: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    margin: 2em auto;
+}
+
+.hero-image-box2 {
+    position: relative;
+}
+
+.hero-glass-box2 {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3.5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    position: absolute;
+    top: 120px;
+    right: -50px;
+}
+
+.hero-circe2 {
+    width: 40px;
+    height: 40px;
+    background: red;
+    border: 1px solid red;
+    border-radius: 50px;
+    margin: 2em auto;
+}
+
+.hero-counter2 .glass-title {
+    font-size: 1.7em;
+}
+
 
 /* -------------------------NAVBAR-SECTION-STYLES------------------------- */
 .main {
@@ -111,7 +176,7 @@ background: rgb(0, 0, 0);
 
 .habits-container {
     text-align: center;
-    margin-top: 10em;
+    margin-top: 7em;
 }
 
 .habits-container .habits-title {
@@ -144,34 +209,32 @@ background: rgb(0, 0, 0);
 }
 
 /* ----------MAIN-RUN-SECTION---------- */
+
 .run-container {
     display: flex;
-    justify-content: space-around;
     background: rgb(38, 38, 38);
     border-radius: .8em;
-    padding: 1.5em 0;
+    padding: 1.5em 1.5em;
     margin-top: 8em;
 }
 
 .run-box {
-    max-width: 50%;
+    margin: 5em auto;
 }
 .run-box .run-title {
     font-size: 2.5em;
     font-weight: 700;
 }
 
-.run-box .run-description {
-
-}
-
 .img {
-    width: 30%;
+    width: 50%;
+    height: 20%;
     background-repeat: no-repeat;
     border-radius: 1em;
 }
 
 /* ----------CALCULATOR-BMI-SECTION---------- */
+
 .Calculator {
     background: rgb(38, 38, 38);
     margin-bottom: 4em;
