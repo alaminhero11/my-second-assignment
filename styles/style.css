@@ -55,7 +55,7 @@ background: rgb(0, 0, 0);
 .navbar {
     justify-content: center;
     justify-content: space-between;
-    margin: 2em 0;
+    padding-top: 1em;
 }
 .navbar .navbar-list {
     list-style-type: none;
@@ -177,7 +177,8 @@ background: rgb(0, 0, 0);
 
 
 /* -------------------------NAVBAR-SECTION-STYLES------------------------- */
-.main {
+
+.habits-section {
     width: 80%;
     margin: 0 auto;
 }
@@ -219,6 +220,8 @@ background: rgb(0, 0, 0);
 /* ----------MAIN-RUN-SECTION---------- */
 
 .run-container {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     background: rgb(38, 38, 38);
     border-radius: .8em;
@@ -244,11 +247,13 @@ background: rgb(0, 0, 0);
 /* ----------CALCULATOR-BMI-SECTION---------- */
 
 .training-section {
-    margin: 8em 0;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.trainer-title {
-    
+.training-content {
+    text-align: center;
+    margin-top: 5em;
 }
 
 .exercise-box1 {
@@ -269,23 +274,38 @@ background: rgb(0, 0, 0);
 
 /* ----------CALCULATOR-BMI-SECTION---------- */
 
-.Calculator {
+.calculator {
     width: 100%;
-    margin-bottom: 4em;
+    margin: 7em 0;
 }
-.Calculator-content {
+.calculator-content {
     text-align: center;
 }
 
-.Calculator-container {
+/* -----TABLE-BMI----- */
+
+.calculator-container {
     display: flex;
     justify-content: space-around;
     background: rgb(38, 38, 38);
+    margin: 3em 0;
 }
 
-/* -----TABLE-BMI----- */
+.calculator-bmi-chart {
+    margin-top: 3em;
+}
+
+.calculator-contact {
+    margin-top: 3em;
+}
+
+.bmi-chart {
+    text-align: center;
+}
+
 table {
     border-collapse: collapse;
+    margin-top: 2em;
 }
 
 td {
@@ -399,15 +419,18 @@ th {
 }
 
 /* -------------------------FOOTER-STYLES------------------------- */
-
 .footer {
     background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
     display: grid;
     grid-template-columns: repeat(1, 500px) 200px 200px;
     justify-content: space-around;
     padding: 2em;
     margin-top: 5em;
 }
+
 
 .footer-content-one .Footer-title {
     color: rgb(230, 83, 60);
@@ -430,4 +453,22 @@ th {
 .footer-content-two .sub-description {
     font-size: 1.2em;
     color: rgba(255, 255, 255, 0.5);
+}
+
+hr {
+    width: 1500px;
+    height: 0.1px;
+    margin-top: em;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.copyright-content {
+    padding: .8em;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 1.7em;
 }
