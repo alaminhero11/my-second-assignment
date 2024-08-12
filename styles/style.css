@@ -15,6 +15,12 @@ background: rgb(0, 0, 0);
 
 .heading-text-color {
     color: aliceblue;
+    font-size: 4em;
+    font-weight: 800;
+}
+
+.text-color {
+    color: aliceblue;
 }
 
 .paragraph-text-color {
@@ -22,6 +28,7 @@ background: rgb(0, 0, 0);
 }
 
 .btn-primary {
+    color: aliceblue;
     background: #E6533C;
     padding: 0.9em 2.2em;
     border-style: none;
@@ -32,10 +39,11 @@ background: rgb(0, 0, 0);
 }
 /* -------------------------NAVBAR-SECTION-STYLES------------------------- */
 .header {
+    background: linear-gradient(180.00deg, rgb(56, 55, 55), rgba(82, 78, 78, 0) 100%);
+}
+.header-container {
     width: 80%;
     margin: 0 auto;
-    /* background: rgba(0, 0, 0, 0.407); */
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
 }
 
 .navbar-title .nav-logo {
@@ -60,10 +68,10 @@ background: rgb(0, 0, 0);
 }
 
 .navbar .navbar-home {
-    border: 0px solid #E6533C;
+    border-style: none;
     background: #E6533C;
     border-radius: 1em;
-    padding: .7em;
+    padding: .8em;
 
 }
 
@@ -235,8 +243,34 @@ background: rgb(0, 0, 0);
 
 /* ----------CALCULATOR-BMI-SECTION---------- */
 
+.training-section {
+    margin: 8em 0;
+}
+
+.trainer-title {
+    
+}
+
+.exercise-box1 {
+    display: grid;
+    grid-template-columns: 400px repeat(1, 1fr) 450px;
+    margin-top: 3em;
+}
+.exercise-box2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) 500px 400px;
+}
+
+.exercise-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ----------CALCULATOR-BMI-SECTION---------- */
+
 .Calculator {
-    background: rgb(38, 38, 38);
+    width: 100%;
     margin-bottom: 4em;
 }
 .Calculator-content {
@@ -246,9 +280,80 @@ background: rgb(0, 0, 0);
 .Calculator-container {
     display: flex;
     justify-content: space-around;
+    background: rgb(38, 38, 38);
+}
+
+/* -----TABLE-BMI----- */
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 1em;
+}
+th {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 1em;
+}
+
+.table-row-color {
+    color: aliceblue;
+}
+.form {
+    margin-top: 3em;
+}
+
+.input {
+    padding: .8em 5em .8em .5em;
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, .8);
+    border-radius: 8px;
+    border-style: none;
+    margin: .3em;
+}
+
+.input-select {
+    padding: .8em 12.5em .8em .5em;
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    border-style: none;
+    margin: .3em;
+}
+
+.input-select-activity {
+    padding: .8em 23.5em .8em .5em;
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    border-style: none;
+    margin: .3em;
+}
+
+.input-select .option {
+    color: aliceblue;
+    background: #353b48;
+    border-color: #353b48;
+}
+
+.btn-calculator {
+    color: aliceblue;
+    background: #E6533C;
+    padding: .8em 4em;
+    border-style: none;
+    border-radius: 2em;
+    font-size: 1em;
+    font-weight: 500;
+    margin: 2.5em 0;
 }
 
 /* -------------------------TEAM-SECTION-STYLES------------------------- */
+
+
 .team-section {
     width: 80%;
     margin: 0 auto;
@@ -261,34 +366,26 @@ background: rgb(0, 0, 0);
 
 .team {
     background: rgb(38, 38, 38);
-    margin: 0 auto;
     border-radius: 1.5em;
-    height: 50%;
-}
-
-.team-container {
     display: grid;
     grid-template-columns: repeat(3, 500px);
-    padding: 2em;
-    border-radius: 1em;
-    margin: 0 auto;
-}
-
-.team-img {
-    width: 90%;
-    height: 90%;
-    background-repeat: no-repeat;
-    border-radius: 1em;
 }
 
 .team-image-box {
+    margin: 2em 1.5em 0 2em;
     position: relative;
 }
+.team-img {
+    width: 100%;
+    height: 90%;
+    border-radius: 1em;
+}
+
 
 .team-description {
     position: absolute;
-    bottom: 40px;
-    left: 20px;
+    bottom: 4em;
+    left: 1em;
 }
 
 .image-title {
@@ -308,8 +405,8 @@ background: rgb(0, 0, 0);
     display: grid;
     grid-template-columns: repeat(1, 500px) 200px 200px;
     justify-content: space-around;
-    padding: 3em;
-    margin-top: 8em;
+    padding: 2em;
+    margin-top: 5em;
 }
 
 .footer-content-one .Footer-title {
