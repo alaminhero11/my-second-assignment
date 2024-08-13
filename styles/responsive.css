@@ -1,0 +1,162 @@
+@media screen and (max-width: 576px) {
+    /* ----------SHARED-STYLES---------- */
+    .heading-text-color {
+        color: #ffffff;
+        font-size: 3em;
+        font-weight: 600;
+    }
+    
+    /* ----------NAVBAR---------- */
+    .navbar-list {
+        display: none;
+    }
+    .menu-icon {
+        color: aliceblue;
+    }
+    /* ----------HERO-SECTION-STYLE---------- */
+    .hero {
+        flex-direction: column;
+    }
+    .hero-container {
+        width: 100%;
+    }
+    .hero-container .hero-title {
+        font-size: 3em;
+    }
+    .hero-image-box {
+        margin-top: 4em;
+    }
+    .hero-glass-box1 {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(3.5px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 15px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        bottom: 250px;
+        left: 0px;
+    }
+    .hero-glass-box2 {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(3.5px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 15px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: 50px;
+        right: 40px;
+    }
+    /* ----------HABBITS-SECTION-STYLE---------- */
+    .habits-section {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .habits-container {
+        text-align: center;
+        margin-top: 3em;
+    }
+    .habits-image {
+        flex-direction: column;
+        margin-top: 1em;
+    }
+    .habits-image-box {
+        width: 100%;
+    }
+    .habits-image .image {
+        width: 250px;
+        height: 250px;
+        border: 1 px solid rgba(255, 255, 255, 0.5);
+        border-radius: 50%;
+        margin-top: 2em;
+    }
+
+    /* -----------RUN-SECTION---------- */
+    .run-container {
+        flex-direction: column;
+        gap: 2em;
+        margin-top: 4em;
+    }
+    .run-box {
+        width: 100%;
+        text-align: center;
+    }
+    .run-image .img {
+        width: 100%;
+        height: 300px;
+    }
+    .run-image {
+    }
+
+    .btn-run {
+        color: #ffffff;
+        background: #E6533C;
+        padding: 1em 10em;
+        border-style: none;
+        border-radius: 2em;
+        font-size: 1em;
+        font-weight: 500;
+        margin-top: .8em;
+    }
+    /* ----------TRAININGS-SECTION---------- */
+    .exercise-box1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2em;
+        margin-top: 3em;
+    }
+    /* .exercise-box1 {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr) 300px;
+        margin-top: 3em;
+    } */
+    /* .exercise-box2 {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        margin-top: 3em;
+    } */
+
+    /* ----------CALCULATOR-BMI-SECTION---------- */
+    .calculator-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .calculator-bmi-chart {
+        margin: 0 auto;
+    }
+    /* -----INPUT-SECTION-DESIGN----- */
+    .input {
+        padding: 1.2em 1em;
+    }
+    .input-select {
+        padding: 1.2em 9em 1em .5em;
+    }
+    .input-select-activity {
+        padding: 1.2em 17em 1em .5em;
+    }
+    .btn-calculator {
+        font-size: 1.5em;
+        padding: .5em 4em;
+        margin: 1.5em 0;
+    }
+    /* -------------------------TEAM-SECTION-STYLES------------------------- */
+    .team {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-image-box {
+    }
+    .team-img {
+        width: 100%;
+        height: 300px;
+    }
+    /* -------------------------FOOTER-STYLES------------------------- */
+    .footer-container {
+        grid-template-columns: repeat(1, 500px);
+    }
+}

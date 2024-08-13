@@ -7,7 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body class="inter">
     <!-- -------------------------HEADER-SECTION------------------------- -->
@@ -29,11 +31,14 @@
                         <a class="text-color" href="">About</a>
                     </li>
                 </ul>
+                <a class="menu-icon" href="assets/menu.png"></a>
             </nav>
             <!-- ----------HERO-SECTION---------- -->
             <section class="hero">
                 <div class="hero-container">
-                    <h1 class="hero-title heading-text-color">Get body in <span>shape</span> and stay healthy</h1>
+                    <span class="hero-title heading-text-color">
+                        Get body in <br> <span class="shape">shape</span> and stay healthy
+                    </span>
                     <p class="hero-description paragraph-text-color">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
                     <button class="btn-primary text-color" type="button">Join Club Now!</button>
                     <button class="btn-app text-color" type="button">Download App</button>
@@ -41,26 +46,27 @@
                 <div class="hero-image-box">
                     <img src="assets/images 2.png" alt="">
                     
-                    <div class="hero-glass-box">
-                        <div class="hero-circel"></div>
-                        <div class="hero-counter">
-                            <h3 class="text-color">350+</h3>
-                            <p class="paragraph-text-color">Video Tutorial</p>
+                    <div class="hero-glass-box1">
+                        <span><a class="hero-squre1" href="assets/play-button.png"></a></span>
+                        <div class="hero-title-box1">
+                            <span class="glass-counter1 text-color">350+</span>
+                            <br>
+                            <span class="paragraph-text-color">Video Tutorial</span>
                         </div>
                     </div>
                     <div class="hero-glass-box2">
-                        <div class="hero-circel2"></div>
-                        <div class="hero-counter2">
-                            <h1 class="text-color glass-title">500+</h1>
-                            <p class="paragraph-text-color">Free Workout Videos</p>
+                        <div class="hero-title-box2">
+                            <span class="text-color glass-counter2">500+</span>
+                            <br>
+                            <span class="paragraph-text-color">Free Workout Videos</span>
                         </div>
                     </div>
-    
                 </div>
             </section>
         </div>
     </header>
 
+    <!-- -------------------------MAIN-SECTION------------------------- -->
     <!-- -------------------------MAIN-SECTION------------------------- -->
     <main class="main">
         <div class="habits-section">
@@ -91,16 +97,18 @@
                 </div>
             </div>
         </div>
-        <!-- ----------RUN-SECTION---------- -->
+<!-- -------------RUN-SECTION--------------- -->
         <section class="run-container">
             <div class="run-box">
                 <h1 class="run-title heading-text-color">Run an Extra Mile Easily</h1>
                 <p class="run-description paragraph-text-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundres of professional workouts</p>
-                <button class="btn-primary text-color" type="button">Join Now</button>
+                <button class="btn-primary btn-run" type="button">Join Now</button>
             </div>
-            <img class="img" src="assets/run.jpg" alt="run.jpg">
+            <div class="run-image">
+                <img class="img" src="assets/run.jpg" alt="run.jpg">
+            </div>
         </section>
-<!-- ----------TRAININGS-SECTION---------- -->
+<!-- -------------TRAININGS-SECTION------------- -->
         <section class="training-section">
             <div class="training-content">
                 <h1 class="heading-text-color">Trainings and Exercises</h1>
@@ -120,13 +128,13 @@
 <!-- ----------CALCULATOR-BMI-SECTION---------- -->
         <section class="calculator">
             <div class="calculator-content">
-                <h1 class="heading-text-color">Trainings and Exercises</h1>
+                <h1 class="heading-text-color">BMI Calculator</h1>
                 <p class="paragraph-text-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
             <div class="calculator-container">
                 <div class="calculator-bmi-chart">
                     <h1 class="bmi-chart text-color">BMI Calculator Chart</h1>
-                    <table>
+                    <table class="table">
                         <thead>
                             <tr class="table-row-color">
                                 <th>
@@ -160,6 +168,7 @@
                         </tfoot>
                     </table>
                 </div>
+                <!-- -----CONTACT-FORM----- -->
                 <div class="calculator-contact">
                     <h1 class="text-color">Calculate your BMI</h1>
                     <p class="paragraph-text-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
@@ -195,49 +204,49 @@
         <!-- -----TEAM-IMAGES----- -->
         <div class="team">
             <div class="team-image-box">
-                <img class="team-img" src="assets/trainer1.png" alt="The image will be uploaded shortly">
+                    <img class="team-img" src="assets/trainer1.png" alt="The image will be uploaded shortly">
                 <div class="team-description">
                     <p class="image-title text-color">Jerome Bell</p>
-                    <p class="heading-text-co">Trainner</p>
+                    <p class="paragraph-text-color">Trainner</p>
                 </div>
             </div>
             <div class="team-image-box">
                 <img class="team-img" src="assets/trainer2.png" alt="The image will be uploaded shortly">
                 <div class="team-description">
-                    <p class="image-title text-color">Jerome Bell</p>
-                    <p class="heading-text-co">Trainner</p>
+                    <p class="image-title text-color">Cameron Willianson</p>
+                    <p class="paragraph-text-color">Trainner</p>
                 </div>
             </div>
             <div class="team-image-box">
                 <img class="team-img" src="assets/trainer3.png" alt="The image will be uploaded shortly">
                 <div class="team-description">
-                    <p class="image-title text-color">Jerome Bell</p>
-                    <p class="heading-text-c">Trainner</p>
+                    <p class="image-title text-color">Darrell Steward</p>
+                    <p class="paragraph-text-color">Trainner</p>
                 </div>
             </div>
             <div class="team-image-box">
                 <img class="team-img" src="assets/trainer4.png" alt="The image will be uploaded shortly">
                 <div class="team-description">
-                    <p class="image-title text-color">Jerome Bell</p>
-                    <p class="heading-text-">Trainner</p>
+                    <p class="image-title text-color">Dianne Russell</p>
+                    <p class="paragraph-text-color">Trainner</p>
                 </div>
             </div>
             <div class="team-image-box">
                 <img class="team-img" src="assets/trainer5.png" alt="The image will be uploaded shortly">
                 <div class="team-description">
-                    <p class="image-title text-color">Jerome Bell</p>
-                    <p class="heading-text-">Trainner</p>
+                    <p class="image-title text-color">Cody Fisher</p>
+                    <p class="paragraph-text-color">Trainner</p>
                 </div>
             </div>
             <div class="team-image-box">
                 <img class="team-img" src="assets/trainer6.png" alt="The image will be uploaded shortly">
                 <div class="team-description">
-                    <p class="image-title text-color">Jerome Bell</p>
-                    <p class="heading-text-co">Trainner</p>
+                    <p class="image-title text-color">Theresa Webb</p>
+                    <p class="paragraph-text-color">Trainner</p>
                 </div>
             </div>
         </div>
-     </section>
+    </section>
 <!-- --------------FOOTER-SECTION------------------------- -->
     <footer class="footer">
         <div class="footer-container">
@@ -247,7 +256,7 @@
             </div>
             <div class="footer-content-two">
                 <h3 class="text-color sub-title">Get Started</h3>
-                <p class="sub-description">Service</p>
+                <p class="sub-description" id="">Service</p>
                 <p class="sub-description">Contact Us</p>
                 <p class="sub-description">Affiliate Program</p>
                 <p class="sub-description">About Us</p>
