@@ -511,6 +511,10 @@ hr {
     }
 /* ----------Navbar-Responsive--------- */
 @media screen and (max-width: 576px) {
+    .header {
+        width: 100%;
+    }
+    
     .nav-menu {
         display: none;
     }
