@@ -582,8 +582,8 @@ hr {
         border-radius: 15px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
         position: absolute;
-        top: 50px;
-        right: 40px;
+        top: 170px;
+        right: -120px;
     }
 
     /* ----------HABBITS-SECTION-STYLE---------- */
@@ -665,7 +665,7 @@ hr {
     
     .input {
         margin-top: 1em;
-        padding: 1.1em 2em 1.1em .5em;
+        padding: 1.1em 0 1.1em .5em;
     }
     
     .form-input-2 .gender {
@@ -680,7 +680,7 @@ hr {
     
     .activity {
         margin-top: 1em;
-        padding: 1em 20.5em 1em .5em;
+        padding: 1em 16.5em 1em .5em;
     }
 
     .btn-calculator {
