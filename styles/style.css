@@ -660,7 +660,7 @@ hr {
     /* -----INPUT-SECTION-DESIGN----- */
     .input-container {
         display: flex;
-        padding: 0 2em;
+        margin: 0 1em;
     }
     
     .input {
@@ -675,7 +675,7 @@ hr {
     
     .input-activity {
         width: 29.2%;
-        padding: 0 2em;
+        margin: 0 1em;
     }
     
     .activity {
