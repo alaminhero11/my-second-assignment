@@ -569,8 +569,8 @@ hr {
         border-radius: 15px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
         position: absolute;
-        bottom: 250px;
-        left: 0px;
+        bottom: 60px;
+        left: -15px;
     }
     .hero-glass-box2 {
         display: flex;
