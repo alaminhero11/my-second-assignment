@@ -119,11 +119,17 @@
     font-weight: 500;
 }
 
+.play-image {
+    width: 20%;
+    height: 100%;
+    margin: auto;
+}
 .hero-image-box {
     position: relative;
 }
 
 .hero-glass-box1 {
+    width: 55%;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -341,44 +347,46 @@ th {
 }
 
 /* -----INPUT-SECTION-DESIGN----- */
-.form {
-    margin-top: 3em;
+
+.input-container {
+    display: flex;
+    column-gap: 1em;
+    width: 100%;
 }
 
 .input {
-    padding: .8em 5em .8em .5em;
+    margin-top: 1em;
+    padding: 1.1em 5em 1.1em .5em;
+    border-radius: .5em;
+    border-style: none;
     font-size: 1em;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, .8);
-    border-radius: 8px;
-    border-style: none;
-    margin: .3em;
 }
 
-.input-select-gender {
-    padding: .8em 12.5em .8em .5em;
+.form-input-2 .gender {
+    width: 100%;
+    padding: 1.1em 5em 1.1em .5em;
+    margin-top: 1em;
+    border-radius: .5em;
+    border-style: none;
     font-size: 1em;
     background: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.8);
-    border-radius: 8px;
-    border-style: none;
-    margin: .3em;
+    color: rgba(255, 255, 255, .8);
 }
 
-.input-select-activity {
-    padding: .8em 24em .8em .5em;
+.input-activity {
+    width: 29.2%;
+}
+
+.activity {
+    margin-top: 1em;
+    padding: 1em 26.5em 1em .5em;
+    border-radius: .5em;
     font-size: 1em;
     background: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.8);
-    border-radius: 8px;
+    color: rgba(255, 255, 255, .8);
     border-style: none;
-    margin: .3em;
-}
-
-.input-select .option {
-    color: rgb(255, 255, 255);
-    background: #353b48;
-    border-color: #353b48;
 }
 
 .btn-calculator {
@@ -650,15 +658,31 @@ hr {
         margin: 0 auto;
     }
     /* -----INPUT-SECTION-DESIGN----- */
+    .input-container {
+        display: flex;
+        padding: 0 2em;
+    }
+    
     .input {
-        padding: 1em .5em;
+        margin-top: 1em;
+        padding: 1.1em 2em 1.1em .5em;
     }
-    .input-select-gender {
-        padding: 1em 8em .9em .5em;
+    
+    .form-input-2 .gender {
+        width: 100%;
+        padding: 1.1em 2em 1.1em .5em;
     }
-    .input-select-activity {
-        padding: 1em 1em 1em .5em;
+    
+    .input-activity {
+        width: 29.2%;
+        padding: 0 2em;
     }
+    
+    .activity {
+        margin-top: 1em;
+        padding: 1em 20.5em 1em .5em;
+    }
+
     .btn-calculator {
         font-size: 1.5em;
         padding: .5em 4em;
