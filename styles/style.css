@@ -26,10 +26,9 @@
 }
 
 .btn-primary {
-    width: 35%;
     color: rgb(255, 255, 255);
     background: rgb(230, 83, 60);
-    padding: 1em;
+    padding: 1em 2.3em;
     border-style: none;
     border-radius: 2em;
     font-size: 1em;
@@ -115,10 +114,9 @@
 /* ---hero-section-button--- */
 
 .hero-container .btn-app {
-    width: 35%;
     background:rgb(31, 30, 30);
     margin-left: 1em;
-    padding: 0.8em 2em;
+    padding: 1em 2.2em;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 2em;
     font-size: 1em;
@@ -130,12 +128,13 @@
     height: 100%;
     margin: auto;
 }
+
 .hero-image-box {
     position: relative;
 }
 
 .hero-glass-box1 {
-    width: 55%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -586,13 +585,18 @@ hr {
     .btn-club {
         font-size: .8em;
         font-weight: 600;
-        padding: 1em;
+        padding: 1em .5em;
     }
     
     .hero-container .btn-app {
         font-size: .8em;
         font-weight: 600;
-        padding: 1em 2em;
+        padding: .8em .4em;
+    }
+
+    .play-image {
+        width: 20%;
+        margin: auto;
     }
 
     .hero-image-box {
@@ -634,6 +638,16 @@ hr {
         text-align: center;
         margin-top: 3em;
     }
+
+    .heading-title {
+        font-size: 1.5em;
+    }
+
+    .habits-description {
+        color: rgb(255, 255, 255, 0.5);
+        margin-top: 1em;
+    }
+
     .habits-image {
         flex-direction: column;
         margin-top: 1em;
@@ -664,14 +678,18 @@ hr {
         width: 100%;
         text-align: center;
     }
+
+    .run-box .run-title {
+        font-size: 1.5em;
+        font-weight: 800;
+    }
     .run-image .img {
         width: 100%;
         height: 300px;
     }
 
     .btn-run {
-        padding: 1em 5em;
-        font-weight: 500;
+        padding: .7em 4em;
     }
 
     /* ----------TRAININGS-SECTION---------- */
@@ -691,13 +709,25 @@ hr {
     /* ----------CALCULATOR-BMI-SECTION---------- */
     .calculator .calculator-title{
         text-align: start;
+        font-size: 2em;
     }
+
+    .bmi-description {
+        text-align: start;
+        color: rgb(255, 255, 255, 0.5);
+    }
+
     .calculator-container {
         flex-direction: column;
         text-align: start;
     }
     .calculator-bmi-chart {
         margin-left: .5em;
+    }
+
+    .bmi-chart {
+        text-align: start;
+        font-size: 1.5em;
     }
 
     /* -----INPUT-SECTION-DESIGN----- */
@@ -727,8 +757,7 @@ hr {
 
     .btn-calculator {
         font-size: 1.5em;
-        padding: .5em 4em;
-        margin: 1.5em 0;
+        padding: .5em 2.5em;
         margin: 1em 2em 0 .5em;
         }
     /* -------------------------TEAM-SECTION-STYLES------------------------- */
