@@ -134,9 +134,9 @@
 }
 
 .hero-glass-box1 {
-    width: 50%;
     display: flex;
     justify-content: space-between;
+    width: 195px;
     box-sizing: border-box;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(3.5px);
@@ -154,7 +154,6 @@
     height: 35px;
     background: rgb(255, 255, 255);
     border-style: none;
-    border-radius: 50px;
     margin: 25px 10px;
 }
 
@@ -170,6 +169,7 @@
 .hero-glass-box2 {
     display: flex;
     justify-content: space-between;
+    width: 195px;
     box-sizing: border-box;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(3.5px);
@@ -610,16 +610,18 @@ hr {
     }
 
     .play-image {
-        width: 20%;
+        width: 50%;
         margin: auto;
     }
 
     .hero-image-box {
         margin-top: 4em;
     }
+
     .hero-glass-box1 {
         display: flex;
         justify-content: space-between;
+        width: 150px;
         box-sizing: border-box;
         background: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(3.5px);
@@ -640,8 +642,18 @@ hr {
         border-radius: 15px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
         position: absolute;
-        top: 170px;
-        right: -120px;
+        top: 70px;
+        right: -40px;
+    }
+
+    .hero-title-box1 .glass-counter1 {
+        font-size: 1.5em;
+        font-weight: 800;
+    }
+    
+    .hero-title-box2 .glass-counter2 {
+        font-size: 1.5em;
+        font-weight: 800;
     }
 
     /* ----------HABBITS-SECTION-STYLE---------- */
