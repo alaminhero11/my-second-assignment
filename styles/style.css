@@ -9,10 +9,11 @@
 }
 
 /* ----------SHARED-STYLES---------- */
-.heading-text-color {
+.heading-title {
     color: rgb(255, 255, 255);
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 800;
+    margin-bottom: 0;
 }
 
 .text-color {
@@ -20,7 +21,7 @@
     font-size: 2em;
 }
 
-.paragraph-text-color {
+.paragraph-description {
     color: rgb(255, 255, 255, 0.5);
 }
 
@@ -107,6 +108,7 @@
 
 .hero-description {
     margin-bottom: 2em;
+    color: rgb(255, 255, 255, 0.5);
 }
 /* ---hero-section-button--- */
 .hero-container .btn-app {
@@ -282,14 +284,14 @@
 }
 
 .training-content {
-    text-align: center;
-    margin-top: 5em;
+    text-align: start;
+    margin-top: 8em;
 }
 
 .exercise-box1 {
     display: grid;
     grid-template-columns: 400px repeat(1, 1fr) 450px;
-    margin-top: 3em;
+    margin-top: 4em;
 }
 .exercise-box2 {
     display: grid;
@@ -302,10 +304,7 @@
 }
 
 /* ----------CALCULATOR-BMI-SECTION---------- */
-.calculator {
-    width: 100%;
-    margin: 7em 0;
-}
+
 .calculator-content {
     text-align: center;
     margin-top: 3em;
@@ -319,9 +318,6 @@
     background: rgb(38, 38, 38);
     margin: 3em 0;
     padding: 2em 0;
-}
-
-.calculator-bmi-chart {
 }
 
 .bmi-chart {
@@ -348,45 +344,50 @@ th {
 
 /* -----INPUT-SECTION-DESIGN----- */
 
-.input-container {
+.form-title-content .form-title{
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: 800;
+    margin-left: .2em;
+}
+
+.form-title-content .form-paragraph{
+    margin-left: .5em;
+}
+
+.main-input-form{
     display: flex;
-    column-gap: 1em;
-    width: 100%;
+    flex-direction: column;
 }
 
-.input {
-    margin-top: 1em;
-    padding: 1.1em 5em 1.1em .5em;
-    border-radius: .5em;
-    border-style: none;
-    font-size: 1em;
+.main-input-form .input-form-box{
+    display: flex;
+    justify-content: center;
+}
+
+.main-input-form .input-form-box input, .select{
+    padding: 1em;
+    margin: .5em;
+    width: 50%;
     background: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, .8);
-}
-
-.form-input-2 .gender {
-    width: 100%;
-    padding: 1.1em 5em 1.1em .5em;
-    margin-top: 1em;
-    border-radius: .5em;
-    border-style: none;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 1em;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+}
+
+.main-input-form .activity{
+    padding: 1em;
+    margin: .5em;
     background: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, .8);
-}
-
-.input-activity {
-    width: 29.2%;
-}
-
-.activity {
-    margin-top: 1em;
-    padding: 1em 26.5em 1em .5em;
-    border-radius: .5em;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 1em;
-    background: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, .8);
-    border-style: none;
+    width: 97%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    align-self: center;
 }
 
 .btn-calculator {
@@ -397,10 +398,11 @@ th {
     border-radius: 2em;
     font-size: 1em;
     font-weight: 500;
-    margin: 2em 0;
+    margin: 2em 2em 0 .5em;
 }
 
 /* -------------------------TEAM-SECTION-STYLES------------------------- */
+
 .team-section {
     width: 80%;
     margin: 0 auto;
@@ -508,15 +510,44 @@ hr {
 
 
 /* -----------------RESPONSIVE-MEDIA-QUERY----------------- */
-/* -----------------RESPONSIVE-MEDIA-QUERY----------------- */
-
+/*
 /* ----------SHARED-STYLES---------- */
-    .heading-text-color {
-        color: rgb(255, 255, 255);
-        font-size: 3em;
-        font-weight: 600;
+    .responsive-title {
+        text-align: start;
     }
-/* ----------Navbar-Responsive--------- */
+
+    .responsive-paragraph {
+        text-align: start;
+    }
+/* ----------SHARED-STYLES---------- */
+
+/* -----------Max-Width:1199px--------------- */
+    @media screen and (max-width: 1199px) {
+        .main-input-form .input-form-box input, .select{
+            width: 30%;
+        }
+    
+        .main-input-form .activity{
+            width: 63.5%;
+            margin: 1em auto;
+        }
+    }
+    
+/* -----------Max-Width:776px--------------- */
+
+@media screen and (max-width: 776px) {
+        .main-input-form .input-form-box input, .select{
+            width: 50%;
+        }
+    
+        .main-input-form .activity{
+            width: 96.5%;
+            margin: 1em auto;
+        }
+    }
+
+/* -----------Max-Width:576px--------------- */
+     /* ------Navbar-Responsive------ */
 @media screen and (max-width: 576px) {
     .header {
         width: 100%;
@@ -650,51 +681,54 @@ hr {
     }
 
     /* ----------CALCULATOR-BMI-SECTION---------- */
+    .calculator .calculator-title{
+        text-align: start;
+    }
     .calculator-container {
         flex-direction: column;
-        text-align: center;
+        text-align: start;
     }
     .calculator-bmi-chart {
-        margin: 0 auto;
+        margin-left: .5em;
     }
+
     /* -----INPUT-SECTION-DESIGN----- */
-    .input-container {
-        display: flex;
-        margin: 0 1em;
-    }
     
-    .input {
+    .form-container{
         margin-top: 1em;
-        padding: 1.1em 0 1.1em .5em;
     }
-    
-    .form-input-2 .gender {
-        width: 100%;
-        padding: 1.1em 2em 1.1em .5em;
+
+    .form-title-content .form-title{
+        text-align: start;
+        font-size: 1.5em;
+        margin-left: .5em;
     }
-    
-    .input-activity {
-        width: 29.2%;
-        margin: 0 1em;
+
+    .form-title-content .form-paragraph{
+        margin-left: .5em;
     }
-    
-    .activity {
-        margin-top: 1em;
-        padding: 1em 16.5em 1em .5em;
+
+    .main-input-form .input-form-box input, .select{
+        width: 50%;
+    }
+
+    .main-input-form .activity{
+        width: 97%;
+        margin: 1em auto;
     }
 
     .btn-calculator {
         font-size: 1.5em;
         padding: .5em 4em;
         margin: 1.5em 0;
-    }
+        margin: 1em 2em 0 .5em;
+        }
     /* -------------------------TEAM-SECTION-STYLES------------------------- */
     .team-section {
         width: 100%;
     }
 
     .team {
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -721,6 +755,25 @@ hr {
     }
 }
 
+/* -----------Max-Width:350px--------------- */
+/* ---------Input-Section----------------- */
+@media screen and (max-width: 350px) {
+    .form-title-box .form-title{
+        font-size: 1.5em;
+    }
+
+    .container .main-input-form .input-form-box input, .select{
+        width: 50%;
+    }
+
+    .container .main-input-form .activity{
+        width: 90.5%;
+    }
+
+    .container form .submit{
+        width: 92.5%;
+    }
+}
 
 /* -------------------------Min-Width-------------------- */
 /* -------------------------Min-Width-------------------- */
