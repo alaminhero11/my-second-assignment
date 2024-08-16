@@ -765,6 +765,10 @@ hr {
         width: 100%;
     }
 
+    .team-title {
+        font-size: 1.5em;
+    }
+
     .team {
         grid-template-columns: repeat(1, 1fr);
     }
