@@ -193,6 +193,13 @@
     font-weight: 800;
 }
 
+.counter-description-1 {
+    color: rgb(255, 255, 255, 0.5);
+}
+.counter-description-2 {
+    color: rgb(255, 255, 255, 0.5);
+}
+
 
 /* -------------------------NAVBAR-SECTION-STYLES------------------------- */
 
@@ -206,9 +213,16 @@
     margin-top: 7em;
 }
 
-.habits-container .habits-title {
-    font-size: 2.5em;
-    font-weight: 700;
+.habits-title {
+    color: rgb(255, 255, 255);
+    font-size: 3.5em;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.habits-container-description {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 2em;
 }
 
 .habits-image {
@@ -321,6 +335,13 @@
     background: rgb(38, 38, 38);
     margin: 3em 0;
     padding: 2em 0;
+}
+
+.calculator-title {
+    color: rgb(255, 255, 255);
+    font-size: 3.5em;
+    font-weight: 800;
+    margin-bottom: 0;
 }
 
 .bmi-chart {
