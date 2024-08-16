@@ -143,6 +143,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    padding: 1em;
     position: absolute;
     bottom: 70px;
     left: -100px;
@@ -161,10 +162,6 @@
     color: rgb(255, 255, 255);
 }
 
-.hero-title-box1 {
-    padding: 1em;
-}
-
 .hero-title-box1 .glass-counter1 {
     font-size: 2em;
     font-weight: 600;
@@ -179,13 +176,10 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    padding: 1em;
     position: absolute;
     top: 140px;
     right: -80px;
-}
-
-.hero-title-box2 {
-    padding: 1em 1em;
 }
 
 .hero-title-box2 .glass-counter2 {
@@ -606,13 +600,13 @@ hr {
     .btn-club {
         font-size: .8em;
         font-weight: 600;
-        padding: 1em .5em;
+        padding: 1em .8em;
     }
     
     .hero-container .btn-app {
         font-size: .8em;
         font-weight: 600;
-        padding: .8em .4em;
+        padding: .8em .5em;
     }
 
     .play-image {
